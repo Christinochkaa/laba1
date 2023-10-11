@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите первое число");
+double num1 = Convert.ToDouble(Console.ReadLine()); 
+Console.WriteLine("Введите второе число");
+double num2 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Введите третье число");
+double num3 = Convert.ToDouble(Console.ReadLine());
+double sum = (num1 + num2 + num3) / 3;
+Console.WriteLine("Среднее арифметическое {0}", sum);
+double dif = 2*(num1 + num3) - num2*3;
+Console.WriteLine("Разность {0}", dif);
